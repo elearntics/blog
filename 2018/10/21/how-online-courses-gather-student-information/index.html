@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="In this post we analyze how three online learning platforms send information related with user learning activity.">
+<meta name="keywords" content="e-learning, edtech, education, student, learning, analytics">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How online courses gather student information?">
+<meta property="og:url" content="elearntics.com/2018/10/21/how-online-courses-gather-student-information/index.html">
+<meta property="og:site_name" content="elearntics">
+<meta property="og:description" content="In this post we analyze how three online learning platforms send information related with user learning activity.">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-10-21T15:13:32.915Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="How online courses gather student information?">
+<meta name="twitter:description" content="In this post we analyze how three online learning platforms send information related with user learning activity.">
+    
+    
+        
+          
+              <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+              <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>How online courses gather student information?</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- rss -->
+    
+    
+<link rel="stylesheet" href="/css/prism-solarizedlight.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+<body class="max-width mx-auto ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Main</a></li>
+         
+          <li><a href="/archives/">Blog</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="mailto:hello@elearntics.com">Contact</a></li>
+        
+      </ul>
+    </span>
+    <br>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/2018/10/21/welcome/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=elearntics.com/2018/10/21/how-online-courses-gather-student-information/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=elearntics.com/2018/10/21/how-online-courses-gather-student-information/&text=How online courses gather student information?"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=elearntics.com/2018/10/21/how-online-courses-gather-student-information/&title=How online courses gather student information?"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=elearntics.com/2018/10/21/how-online-courses-gather-student-information/&is_video=false&description=How online courses gather student information?"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=How online courses gather student information?&body=Check out this article: elearntics.com/2018/10/21/how-online-courses-gather-student-information/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=elearntics.com/2018/10/21/how-online-courses-gather-student-information/&title=How online courses gather student information?"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=elearntics.com/2018/10/21/how-online-courses-gather-student-information/&title=How online courses gather student information?"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=elearntics.com/2018/10/21/how-online-courses-gather-student-information/&title=How online courses gather student information?"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=elearntics.com/2018/10/21/how-online-courses-gather-student-information/&title=How online courses gather student information?"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=elearntics.com/2018/10/21/how-online-courses-gather-student-information/&name=How online courses gather student information?&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Gathering-information"><span class="toc-number">1.</span> <span class="toc-text">Gathering information</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Udemy"><span class="toc-number">2.</span> <span class="toc-text">Udemy</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Udacity"><span class="toc-number">3.</span> <span class="toc-text">Udacity</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Coursera"><span class="toc-number">4.</span> <span class="toc-text">Coursera</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Conclusion"><span class="toc-number">5.</span> <span class="toc-text">Conclusion</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py3 px3">
+      <header id="header">
+  <a href="/">
+  
+    
+      <div id="logo" style="background-image: url(/images/logo.png);"></div>
+    
+  
+    <div id="title">
+      <h1>elearntics</h1>
+    </div>
+  </a>
+  <div id="nav">
+    <ul>
+      <li class="icon">
+        <a href="#"><i class="fas fa-bars fa-2x"></i></a>
+      </li>
+       
+        <li><a href="/">Main</a></li>
+       
+        <li><a href="/archives/">Blog</a></li>
+       
+        <li><a href="/about/">About</a></li>
+       
+        <li><a href="mailto:hello@elearntics.com">Contact</a></li>
+      
+    </ul>
+  </div>
+</header>
+
+      <section class="">
+        <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+      > How online courses gather student information?
+    </h1>
+
+
+    <div class="meta">
+      
+
+      
+    <div class="postdate">
+      ✏️ <time datetime="2018-10-21T15:13:32.915Z" itemprop="datePublished">2018-10-21</time>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <h2 id="Gathering-information"><a href="#Gathering-information" class="headerlink" title="Gathering information"></a>Gathering information</h2><p>The purpose of this post is to see examples of how well-known learning platforms are gathering student information. I wanted to know how other companies were sending this information while I was reading about xAPI. Although there’s nothing in this blog about xAPI (yet), I think it’s a good starting point to analyze and understand where xAPI can be applied and be useful. You don’t need to know much about xAPI to read this post, but if you want to, you can take a look to this <a href="https://xapi.com/overview/" target="_blank" rel="noopener">brief overview</a>. Let’s highlight the first paragraph:</p>
+<blockquote>
+<p>The Experience API (or xAPI) is a new specification for learning technology that makes it possible to collect data about the wide range of experiences a person has (online and offline). This API captures data in a consistent format about a person or group’s activities from many technologies. Very different systems are able to securely communicate by capturing and sharing this stream of activities using xAPI’s simple vocabulary.</p>
+</blockquote>
+<p>In this post, I’m going to explore what’s behind Udemy, Udacity and Coursera way of getting student information while playing videos. The way I’m checking this is simply by taking a look to the <code>Network</code> tab in the browser’s devtools, and diving into the different HTTP requests each platform is sending.</p>
+<p>We’re going to see how each one track the “Play” action:</p>
+<h2 id="Udemy"><a href="#Udemy" class="headerlink" title="Udemy"></a>Udemy</h2><pre class="line-numbers language-javascript"><code class="language-javascript"><span class="token punctuation">{</span>
+  <span class="token string">"userId"</span><span class="token punctuation">:</span> <span class="token number">1234567</span><span class="token punctuation">,</span>
+  <span class="token string">"visitorUUID"</span><span class="token punctuation">:</span> <span class="token string">"5184bda070534f7badb88e6c6874dd34"</span><span class="token punctuation">,</span>
+  <span class="token string">"userType"</span><span class="token punctuation">:</span> <span class="token string">"Student"</span><span class="token punctuation">,</span>
+  <span class="token string">"courseId"</span><span class="token punctuation">:</span> <span class="token number">000000</span><span class="token punctuation">,</span>
+  <span class="token string">"courseType"</span><span class="token punctuation">:</span> <span class="token string">"Paid"</span><span class="token punctuation">,</span>
+  <span class="token string">"objectId"</span><span class="token punctuation">:</span> <span class="token number">111111</span><span class="token punctuation">,</span>
+  <span class="token string">"objectType"</span><span class="token punctuation">:</span> <span class="token string">"Lecture"</span><span class="token punctuation">,</span>
+  <span class="token string">"ctVersion"</span><span class="token punctuation">:</span> <span class="token string">"1"</span><span class="token punctuation">,</span>
+  <span class="token string">"category"</span><span class="token punctuation">:</span> <span class="token string">"Video Controls"</span><span class="token punctuation">,</span>
+  <span class="token string">"action"</span><span class="token punctuation">:</span> <span class="token string">"video play"</span><span class="token punctuation">,</span>
+  <span class="token string">"extra"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token string">"dimension2"</span><span class="token punctuation">:</span> <span class="token string">"videojs Html5"</span><span class="token punctuation">,</span>
+    <span class="token string">"msPosition"</span><span class="token punctuation">:</span> <span class="token number">136697.248</span><span class="token punctuation">,</span>
+    <span class="token string">"userId"</span><span class="token punctuation">:</span> <span class="token number">1234567</span><span class="token punctuation">,</span>
+    <span class="token string">"format"</span><span class="token punctuation">:</span> <span class="token string">"video/mp4"</span><span class="token punctuation">,</span>
+    <span class="token string">"quality"</span><span class="token punctuation">:</span> <span class="token string">"720"</span><span class="token punctuation">,</span>
+    <span class="token string">"userAgent"</span><span class="token punctuation">:</span> <span class="token string">"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"</span><span class="token punctuation">,</span>
+    <span class="token string">"streamType"</span><span class="token punctuation">:</span> <span class="token string">"NOT-HLS"</span><span class="token punctuation">,</span>
+    <span class="token string">"bytesSecHighestDecoder"</span><span class="token punctuation">:</span> <span class="token number">105620</span><span class="token punctuation">,</span>
+    <span class="token string">"millisSecHighestBandwidth"</span><span class="token punctuation">:</span> <span class="token number">102637</span><span class="token punctuation">,</span>
+    <span class="token string">"cdn"</span><span class="token punctuation">:</span> <span class="token string">"level3"</span><span class="token punctuation">,</span>
+    <span class="token string">"assetId"</span><span class="token punctuation">:</span> <span class="token number">5772772</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>As we can see, the action here is defined as <strong>video play</strong>. There are many other actions that can be tracked, such as:</p>
+<ul>
+<li>“video pause”</li>
+<li>“video volume”</li>
+<li>“video seek forward”</li>
+<li>“video hd: 480” <em>(change video resolution)</em></li>
+<li>“video cc: off” <em>(change video subtitles)</em></li>
+</ul>
+<h2 id="Udacity"><a href="#Udacity" class="headerlink" title="Udacity"></a>Udacity</h2><pre class="line-numbers language-javascript"><code class="language-javascript"><span class="token punctuation">{</span>
+  <span class="token string">"integrations"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token string">"context"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token string">"page"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      <span class="token string">"path"</span><span class="token punctuation">:</span> <span class="token string">"/courses/cs271/lessons/48688925/concepts/487421730923"</span><span class="token punctuation">,</span>
+      <span class="token string">"referrer"</span><span class="token punctuation">:</span> <span class="token string">"https://eu.udacity.com/"</span><span class="token punctuation">,</span>
+      <span class="token string">"search"</span><span class="token punctuation">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+      <span class="token string">"title"</span><span class="token punctuation">:</span> <span class="token string">"Intro to Artificial Intelligence - Udacity"</span><span class="token punctuation">,</span>
+      <span class="token string">"url"</span><span class="token punctuation">:</span> <span class="token string">"https://classroom.udacity.com/courses/cs271/lessons/48688925/concepts/487421730923"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">"userAgent"</span><span class="token punctuation">:</span> <span class="token string">"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"</span><span class="token punctuation">,</span>
+    <span class="token string">"library"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      <span class="token string">"name"</span><span class="token punctuation">:</span> <span class="token string">"analytics.js"</span><span class="token punctuation">,</span>
+      <span class="token string">"version"</span><span class="token punctuation">:</span> <span class="token string">"3.6.0"</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token string">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token string">"conceptKey"</span><span class="token punctuation">:</span> <span class="token string">"487421730923"</span><span class="token punctuation">,</span>
+    <span class="token string">"courseKey"</span><span class="token punctuation">:</span> <span class="token string">"cs271"</span><span class="token punctuation">,</span>
+    <span class="token string">"lessonKey"</span><span class="token punctuation">:</span> <span class="token string">"48688925"</span><span class="token punctuation">,</span>
+    <span class="token string">"concept_title"</span><span class="token punctuation">:</span> <span class="token string">"Terminology"</span><span class="token punctuation">,</span>
+    <span class="token string">"course_title"</span><span class="token punctuation">:</span> <span class="token string">"Intro to Artificial Intelligence"</span><span class="token punctuation">,</span>
+    <span class="token string">"lesson_title"</span><span class="token punctuation">:</span> <span class="token string">"1. Welcome to AI"</span><span class="token punctuation">,</span>
+    <span class="token string">"course_key"</span><span class="token punctuation">:</span> <span class="token string">"cs271"</span><span class="token punctuation">,</span>
+    <span class="token string">"content_type"</span><span class="token punctuation">:</span> <span class="token string">"course"</span><span class="token punctuation">,</span>
+    <span class="token string">"version"</span><span class="token punctuation">:</span> <span class="token string">"1.0.0"</span><span class="token punctuation">,</span>
+    <span class="token string">"locale"</span><span class="token punctuation">:</span> <span class="token string">"en-us"</span><span class="token punctuation">,</span>
+    <span class="token string">"startTime"</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token string">"endTime"</span><span class="token punctuation">:</span> <span class="token number">10.155488</span><span class="token punctuation">,</span>
+    <span class="token string">"videoDuration"</span><span class="token punctuation">:</span> <span class="token number">317.341</span><span class="token punctuation">,</span>
+    <span class="token string">"durationWatched"</span><span class="token punctuation">:</span> <span class="token number">10.155488</span><span class="token punctuation">,</span>
+    <span class="token string">"playerState"</span><span class="token punctuation">:</span> <span class="token string">"paused"</span><span class="token punctuation">,</span>
+    <span class="token string">"atomKey"</span><span class="token punctuation">:</span> <span class="token string">"48742173"</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token string">"event"</span><span class="token punctuation">:</span> <span class="token string">"Course Video Watched"</span><span class="token punctuation">,</span>
+  <span class="token string">"anonymousId"</span><span class="token punctuation">:</span> <span class="token string">"37079069-bbe4-4a20-ab33-b904b2d324fa"</span><span class="token punctuation">,</span>
+  <span class="token string">"timestamp"</span><span class="token punctuation">:</span> <span class="token string">"2018-05-11T17:55:38.742Z"</span><span class="token punctuation">,</span>
+  <span class="token string">"type"</span><span class="token punctuation">:</span> <span class="token string">"track"</span><span class="token punctuation">,</span>
+  <span class="token string">"writeKey"</span><span class="token punctuation">:</span> <span class="token string">"u0v6T1NLYy1dJA9tWDSGSyuFolxZEzUp"</span><span class="token punctuation">,</span>
+  <span class="token string">"userId"</span><span class="token punctuation">:</span> <span class="token string">"1234567890"</span><span class="token punctuation">,</span>
+  <span class="token string">"sentAt"</span><span class="token punctuation">:</span> <span class="token string">"2018-05-11T17:55:38.744Z"</span><span class="token punctuation">,</span>
+  <span class="token string">"_metadata"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token string">"bundled"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+      <span class="token string">"AdWords"</span><span class="token punctuation">,</span>
+      <span class="token string">"Blueshift"</span><span class="token punctuation">,</span>
+      <span class="token string">"Google Analytics"</span><span class="token punctuation">,</span>
+      <span class="token string">"Google Tag Manager"</span><span class="token punctuation">,</span>
+      <span class="token string">"Intercom"</span><span class="token punctuation">,</span>
+      <span class="token string">"Segment.io"</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token string">"unbundled"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token string">"messageId"</span><span class="token punctuation">:</span> <span class="token string">"ajs-db6933ea06339a2f3734aa02745310dc"</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>What Udacity is doing is to send a “pause” action with <code>durationWatched</code>, <code>startTime</code> and <code>startTime</code> values, that can be used to know when the user played and paused the video. All of these wrapped in a <em>event</em> named <strong>Course Video Watched</strong>.</p>
+<h2 id="Coursera"><a href="#Coursera" class="headerlink" title="Coursera"></a>Coursera</h2><pre class="line-numbers language-javascript"><code class="language-javascript"><span class="token punctuation">{</span>
+  <span class="token string">"clientType"</span><span class="token punctuation">:</span> <span class="token string">"web"</span><span class="token punctuation">,</span>
+  <span class="token string">"app"</span><span class="token punctuation">:</span> <span class="token string">"phoenix"</span><span class="token punctuation">,</span>
+  <span class="token string">"clientVersion"</span><span class="token punctuation">:</span> <span class="token string">"{{ WEBPACK_VERSION_PLACEHOLDER }}"</span><span class="token punctuation">,</span>
+  <span class="token string">"events"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+    <span class="token string">"key"</span><span class="token punctuation">:</span> <span class="token string">"open_course.video.play"</span><span class="token punctuation">,</span>
+    <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      <span class="token string">"open_course_slug"</span><span class="token punctuation">:</span> <span class="token string">"geospatial"</span><span class="token punctuation">,</span>
+      <span class="token string">"video_name"</span><span class="token punctuation">:</span> <span class="token string">"Lesson 1 - Lecture 1"</span><span class="token punctuation">,</span>
+      <span class="token string">"item_id"</span><span class="token punctuation">:</span> <span class="token string">"8xwbQ"</span><span class="token punctuation">,</span>
+      <span class="token string">"item_name"</span><span class="token punctuation">:</span> <span class="token string">"Lesson 1 - Lecture 1"</span><span class="token punctuation">,</span>
+      <span class="token string">"lesson_id"</span><span class="token punctuation">:</span> <span class="token string">"gAaTS"</span><span class="token punctuation">,</span>
+      <span class="token string">"lesson_name"</span><span class="token punctuation">:</span> <span class="token string">"The Changing Nature of Place"</span><span class="token punctuation">,</span>
+      <span class="token string">"module_id"</span><span class="token punctuation">:</span> <span class="token string">"EOiNh"</span><span class="token punctuation">,</span>
+      <span class="token string">"module_name"</span><span class="token punctuation">:</span> <span class="token string">"The Changing Nature of Place"</span><span class="token punctuation">,</span>
+      <span class="token string">"timecode"</span><span class="token punctuation">:</span> <span class="token number">5.503129</span><span class="token punctuation">,</span>
+      <span class="token string">"appName"</span><span class="token punctuation">:</span> <span class="token string">"ondemand"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">"clientType"</span><span class="token punctuation">:</span> <span class="token string">"web"</span><span class="token punctuation">,</span>
+    <span class="token string">"url"</span><span class="token punctuation">:</span> <span class="token string">"https://www.coursera.org/learn/geospatial/lecture/8xwbQ/lesson-1-lecture-1"</span><span class="token punctuation">,</span>
+    <span class="token string">"app"</span><span class="token punctuation">:</span> <span class="token string">"phoenix"</span><span class="token punctuation">,</span>
+    <span class="token string">"referrerUrl"</span><span class="token punctuation">:</span> <span class="token string">"https://www.coursera.org/learn/geospatial/home/welcome"</span><span class="token punctuation">,</span>
+    <span class="token string">"guid"</span><span class="token punctuation">:</span> <span class="token string">"12345678-1234-5678-9012-12345678"</span><span class="token punctuation">,</span>
+    <span class="token string">"visitId"</span><span class="token punctuation">:</span> <span class="token string">"12345679-1234-5678-9012-34567890"</span><span class="token punctuation">,</span>
+    <span class="token string">"screenSize"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      <span class="token string">"height"</span><span class="token punctuation">:</span> <span class="token number">900</span><span class="token punctuation">,</span>
+      <span class="token string">"width"</span><span class="token punctuation">:</span> <span class="token number">1440</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">"clientVersion"</span><span class="token punctuation">:</span> <span class="token string">"{{ WEBPACK_VERSION_PLACEHOLDER }}"</span><span class="token punctuation">,</span>
+    <span class="token string">"clientTimestamp"</span><span class="token punctuation">:</span> <span class="token number">1526061514664</span><span class="token punctuation">,</span>
+    <span class="token string">"sequence"</span><span class="token punctuation">:</span> <span class="token number">3571</span>
+  <span class="token punctuation">}</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>In this last example, they’re sending a <strong>“open_course.video.play”</strong> event, along with similar information as the previous examples.</p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>As we can see, all of these platforms have in common that they send, in this particular example, video interaction events to a server. They’re sending the same kind of information, but they’re using completely different structures. This is where xAPI comes into play: xAPI specification tries to provide a common way to send, store and understand student interaction.</p>
+<p>If you’d like to see how this information could have been sent using xAPI, I’m writing a post about it that will be available soon.</p>
+
+  </div>
+</article>
+
+
+
+      </section>
+    </div>
+    
+      <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Main</a></li>
+         
+          <li><a href="/archives/">Blog</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="mailto:hello@elearntics.com">Contact</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Gathering-information"><span class="toc-number">1.</span> <span class="toc-text">Gathering information</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Udemy"><span class="toc-number">2.</span> <span class="toc-text">Udemy</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Udacity"><span class="toc-number">3.</span> <span class="toc-text">Udacity</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Coursera"><span class="toc-number">4.</span> <span class="toc-text">Coursera</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Conclusion"><span class="toc-number">5.</span> <span class="toc-text">Conclusion</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=elearntics.com/2018/10/21/how-online-courses-gather-student-information/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=elearntics.com/2018/10/21/how-online-courses-gather-student-information/&text=How online courses gather student information?"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=elearntics.com/2018/10/21/how-online-courses-gather-student-information/&title=How online courses gather student information?"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=elearntics.com/2018/10/21/how-online-courses-gather-student-information/&is_video=false&description=How online courses gather student information?"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=How online courses gather student information?&body=Check out this article: elearntics.com/2018/10/21/how-online-courses-gather-student-information/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=elearntics.com/2018/10/21/how-online-courses-gather-student-information/&title=How online courses gather student information?"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=elearntics.com/2018/10/21/how-online-courses-gather-student-information/&title=How online courses gather student information?"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=elearntics.com/2018/10/21/how-online-courses-gather-student-information/&title=How online courses gather student information?"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=elearntics.com/2018/10/21/how-online-courses-gather-student-information/&title=How online courses gather student information?"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=elearntics.com/2018/10/21/how-online-courses-gather-student-information/&name=How online courses gather student information?&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+    
+    <footer id="footer" class="my4 px3">
+  <div class="footer-left">
+    Copyright &copy; 2018 elearntics
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        
+          <li><a href="/">Main</a></li>
+        
+          <li><a href="/archives/">Blog</a></li>
+        
+          <li><a href="/terms-of-service/">Terms of Service</a></li>
+        
+          <li><a href="/privacy-policy/">Privacy Policy</a></li>
+        
+          <li><a href="mailto:hello@elearntics.com">contact</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
+<!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+<!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+
