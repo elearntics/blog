@@ -1232,6 +1232,12 @@ article .content .caption {
     content: "|";
   }
 }
+@media (max-width: 900px) {
+  article header .posttitle {
+    font-size: 2.5em;
+    line-height: 1;
+  }
+}
 #archive h1 {
   font-size: 3em;
 }
